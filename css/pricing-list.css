@@ -1,0 +1,92 @@
+@media (max-width: 992px) {
+    .md-margin-b-30 {
+        margin-bottom: 30px !important;
+    }
+}
+
+.radius-3 {
+    border-radius: 3px !important;
+}
+
+.radius-10 {
+    border-radius: 10px !important;
+}
+
+
+.pricing-list-v4 {
+    text-align: center;
+    background: #fff;
+    box-shadow: 15px 15px 15px 0 #eff1f8;
+    /*border: 1px solid rgba(0,0,0,.1);*/
+}
+
+.pricing-list-v4-header h4.pricing-list-v4-title {
+    font-weight: 100;
+}
+
+.pricing-list-v4 .pricing-list-v4-header {
+    border-bottom: 1px solid #e4e8f3;
+    padding: 40px 20px 40px;
+    margin: 10px 30px;
+}
+
+.pricing-list-v4 .pricing-list-v4-header .pricing-list-v4-title {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.pricing-list-v4 .pricing-list-v4-header .pricing-list-v4-subtitle {
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.pricing-list-v4 .pricing-list-v4-content {
+    padding: 40px 20px;
+}
+
+.pricing-list-v4 .pricing-list-v4-content .pricing-list-v4-price-sign {
+    position: relative;
+    top: -30px;
+    font-size: 20px;
+}
+
+.pricing-list-v4 .pricing-list-v4-content .pricing-list-v4-price {
+    font-size: 70px;
+    font-weight: 400;
+    line-height: .5;
+    letter-spacing: -3px;
+}
+
+.pricing-list-v4 .pricing-list-v4-content .pricing-list-v4-subprice {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.pricing-list-v4 .pricing-list-v4-content .pricing-list-v4-price-info {
+    position: relative;
+    display: block;
+    letter-spacing: 1px;
+}
+
+.pricing-list-v4 .pricing-list-v4-content .pricing-list-v4-price-info:before {
+    font-size: 22px;
+    font-weight: 300;
+    content: "/";
+    margin-right: 3px;
+}
+
+
+.col-4, .col-2 {
+    float: left;
+}
+
+.hr {
+    clear: both;
+}
+
+/*
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}*/

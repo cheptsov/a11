@@ -1,189 +1,229 @@
 <html>
-  <head>
+<head>
     <title>
-      A11: Mobile Concierge for Expats
+        A11 - Virtual Assistant for Expats in Germany
     </title>
     <meta charSet="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/devices.css">
-  </head>
-  <body>
-    <header class="header">
-      <div class="container-lrg">
+    <link rel="stylesheet" type="text/css" href="css/pricing-list.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script language="JavaScript">
+        (function ($) {
+            $.fn.goTo = function () {
+                $('html, body').animate({
+                    scrollTop: $(this).offset().top + 'px'
+                }, 'fast');
+                return this; // for chaining...
+            }
+        })(jQuery);
+    </script>
+</head>
+<body>
+<header class="header">
+    <div class="container-lrg">
         <div class="col-12 spread">
-          <div>
-            <a class="logo">
-              A11
-            </a>
-          </div>
-          <div>
-            <a class="nav-link" href="#">
-              Twitter
-            </a>
-            <a class="nav-link" href="#">
-              Facebook
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="container-lrg flex">
-        <div class="col-6 centervertical">
-          <h1 class="heading">
-            Concierge service
-          </h1>
-          <h2 class="paragraph ">
-            For expats living in Germany
-          </h2>
-          <div class="ctas">
-            <a class="ctas-button" href="">
-              Try free for 14 days
-            </a>
-          </div>
-        </div>
-        <div class="col-6 sidedevices">
-          <div class="browseriphone">
-            <div class="iphone">
-              <div class="mask">
-                <img class="mask-img" src="img/mobileapp.svg">
-              </div>
+            <div>
+                <a class="logo">
+                    A11
+                </a>
             </div>
-            <div class="browser">
-              <div class="mask">
-                <img class="mask-img" src="img/webapp.svg">
-              </div>
+            <div>
+                <a class="nav-link" href="https://a11.recurly.com/">
+                    Log In
+                </a>
+                &nbsp;
+                <a class="ctas-button" href="javascript:void(0)" onclick="$('#plans').goTo()">
+                    Sign Up
+                </a>
             </div>
-          </div>
         </div>
-      </div>
-    </header>
-    <div class="feature4">
-      <div class="container-lrg flex">
-        <div class="col-5 centervertical">
-          <h3 class="subheading">
-            Brilliant Domain Names.
-          </h3>
-          <p class="paragraph">
-            Launchaco instantly shows you the most relevant domain names. Followed by hundreds of new gtlds. Get your .gold domain name today!
-          </p>
+    </div>
+    <div class="container-lrg flex">
+        <div class="col-7 centervertical">
+            <h1 class="heading">
+                Virtual Assistant for Expats in Germany
+            </h1>
+            <h2 class="paragraph">
+                Another language, <!--another culture, -->lack of time, and thousand things to sort out?
+                Living in Germany may be stressful if you come from another place.
+            </h2>
+            <br>
+            <h2 class="paragraph">
+                Have a question? Need to make a call or make a reservation? Send us a message
+                and you'll get help in minutes.
+            </h2>
+            <div class="ctas">
+                <a class="ctas-button-2" href="javascript:void(0)" onclick="$('#plans').goTo()">
+                    Sign Up
+                </a>
+            </div>
         </div>
-        <div class="col-1">
-        </div>
-        <div class="col-6">
-          <div class="sidedevices">
+        <div class="col-5 sidedevices">
             <div class="iphones">
-              <div class="iphone">
-                <div class="mask">
-                  <img class="mask-img" src="img/mobileapp.svg">
+                <div class="iphone">
+                    <div class="mask">
+                        <img class="mask-img" src="img/mobileapp.svg">
+                    </div>
                 </div>
-              </div>
-              <div class="iphone iphone__2">
-                <div class="mask">
-                  <img class="mask-img" src="img/mobileapp.svg">
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-    <div class="feature5">
-      <div class="container-sml text-center">
+</header>
+<div class="feature6">
+    <div class="container-sml">
         <div class="col-12">
-          <h3 class="heading">
-            Brilliant Domain Names.
-          </h3>
+            <h2 class="heading">
+                Feel Yourself at Home
+            </h2>
+            <p class="paragraph">
+                A11 is a team of Germany-based assistants that speak your native language.
+                Get your own assistant that can handle anything you need,
+                so you can spend your time on more important things.
+            </p>
         </div>
-      </div>
-      <div class="container-lrg flex">
+    </div>
+</div>
+<div class="feature4">
+    <div class="container-lrg flex">
         <div class="col-5 centervertical">
-          <div class="steps">
-            <div class="emoji">
-              <b>
-                🎓
-              </b>
+            <div class="steps">
+                <h2 class="heading">
+                    We Get Things Done
+                </h2>
             </div>
-            <h3 class="subheading">
-              Instant Handles
-            </h3>
-            <p class="paragraph">
-              Launchaco instantly shows you the most relevant domain names. Followed by hundreds of new gtlds. Get your .gold domain name today!
-            </p>
-          </div>
-          <div class="steps">
-            <div class="emoji">
-              <b>
-                💐
-              </b>
+            <div class="steps">
+                <!--<h4 class="subheading">Questions</h4>-->
+                <p class="paragraph">Get quick answers and explanations on specific questions and general topics.</p>
             </div>
-            <h3 class="subheading">
-              Gorgeous Logotypes
-            </h3>
-            <p class="paragraph">
-              Naming your brand has never been soooo easy! With Launchaco you can instantly search for twitter, facebook, medium, and instagram handles.
-            </p>
-          </div>
-          <div class="steps">
-            <div class="emoji">
-              <b>
-                🚀
-              </b>
+            <div class="steps">
+                <!--<h4 class="subheading">Calls</h4>-->
+                <p class="paragraph">Let us make calls on your behalf. We'll be happy to make reservations
+                    and appointments for you.</p>
             </div>
-            <h3 class="subheading">
-              Insanely Fast
-            </h3>
-            <p class="paragraph">
-              We've hand travelled the depths of the internet to bring you gorgeous logotypes. Featuring the beautiful fonts of Connary Fagen.
-            </p>
-          </div>
+
+            <div class="steps">
+                <!--<h4 class="subheading">Documents</h4>-->
+                <p class="paragraph">We can help you fill out forms, check documents in German, or help with personal
+                    correspondence.</p>
+            </div>
         </div>
         <div class="col-1">
         </div>
         <div class="col-6">
-          <div class="sidedevices">
-            <div class="browseriphone">
-              <div class="iphone">
-                <div class="mask">
-                  <img class="mask-img" src="img/mobileapp.svg">
+            <div class="sidedevices">
+                <div class="browseriphone">
+                    <div class="iphone">
+                        <div class="mask">
+                            <img class="mask-img" src="img/mobileapp.svg">
+                        </div>
+                    </div>
+                    <div class="browser">
+                        <div class="mask">
+                            <img class="mask-img" src="img/webapp.svg">
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="browser">
-                <div class="mask">
-                  <img class="mask-img" src="img/webapp.svg">
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-    <div class="socialproof">
-      <div class="container-sml">
-        <div class="flex text-center">
-          <div class="col-12">
-            <h4 class="subheading">
-              "What a time saver for startup founders...this can be one of the most awful and creative sinkholes that a team goes through... Bravo for making this hellish process a little better."
-            </h4>
-            <p class="paragraph">
-              Sean Howell - CEO @ Hornetapp
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer">
-      <div class="container-sml text-center">
+</div>
+<div>
+    <div class="feature6">
         <div class="col-12">
-          <h5 class="heading">
-            Instantly search domains, handles and logotypes.
-          </h5>
-          <div class="ctas">
-            <a class="ctas-button" href="">
-              Sign Up
-            </a>
-          </div>
+            <h1 id="plans" class="heading text-center">Choose your plan</h1>
         </div>
-      </div>
+        <div class="container-sml">
+            <div class="col-12 text-center">
+                <h2 class="paragraph">You won't be charged until after your trial ends. You can
+                    cancel your trial any time.</h2>
+            </div>
+        </div>
+        <br>
+        <div class="text-center">
+            <div class="col-2">&nbsp;</div>
+            <div class="col-4">
+                <div class="pricing-list-v4 radius-10">
+                    <div class="pricing-list-v4-header">
+                        <h4 class="pricing-list-v4-title">Basic</h4>
+                        <!--<span class="pricing-list-v4-price-info">no prepaid request</span>-->
+                        <span class="pricing-list-v4-subtitle">€7 per request</span>
+                    </div>
+                    <div class="pricing-list-v4-content">
+                        <div class="margin-b-40">
+                            <span class="pricing-list-v4-price-sign"><i class="fa fa-dollar"></i></span>
+                            <span class="pricing-list-v4-price">0.</span>
+                            <span class="pricing-list-v4-subprice">00</span>
+                            <span class="pricing-list-v4-price-info">Month</span>
+                        </div>
+                        <div class="center-block">
+                            <div class="ctas">
+                                <a class="ctas-button" href="">
+                                    Try free for 14 days
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="pricing-list-v4 radius-10">
+                    <div class="pricing-list-v4-header">
+                        <h4 class="pricing-list-v4-title">Standard</h4>
+                        <span class="pricing-list-v4-subtitle">5 <!--prepaid--> requests a month</span>
+                        <!--<span class="pricing-list-v4-subtitle">€5 per request</span>-->
+                    </div>
+                    <div class="pricing-list-v4-content">
+                        <div class="margin-b-40">
+                            <span class="pricing-list-v4-price-sign"><i class="fa fa-dollar"></i></span>
+                            <span class="pricing-list-v4-price">€29.</span>
+                            <span class="pricing-list-v4-subprice">00</span>
+                            <span class="pricing-list-v4-price-info">Month</span>
+                        </div>
+                        <div class="center-block">
+                            <div class="ctas">
+                                <a class="ctas-button-2" href="">
+                                    Try free for 14 days
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hr">&nbsp;</div>
     </div>
-  </body>
+</div>
+</div>
+<div class="footer">
+    <!--<div class="container-sml text-center">
+        <div class="col-12">
+            <h5 class="heading">
+                Join the hundreds of happy expats
+            </h5>
+        </div>
+    </div>-->
+    <div class="container-lrg footer-nav">
+        <div class="col-12 spread">
+            <div>
+                <a class="nav-link" href="#">
+                    Privacy Policy
+                </a>
+                <a class="nav-link" href="#">
+                    Terms of Use
+                </a>
+            </div>
+            <div>
+                <!--<a class="nav-link" href="https://medium.com/@A11Assistant">
+                    Read Our Blog
+                </a>-->
+                <a class="nav-link" href="https://www.facebook.com/A11Assistant">
+                    Message Us
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
 </html>
