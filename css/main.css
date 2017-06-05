@@ -267,3 +267,13 @@ p.paragraph {
 .steps:not(:last-of-type) {
 	margin-bottom: 20px;
 }
+
+.emoji {
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	transform: translate3d(calc(-100% - 20px),0,0);
+	padding-top: 4px;
+	min-width: inherit;
+	z-index: 9999;
+}
