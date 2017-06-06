@@ -249,6 +249,7 @@ p.paragraph {
 	/*border-bottom: 1px solid rgba(0,0,0,.1)*/
 }.feature4 {
 	padding: 90px 0;
+    overflow: hidden;
 	/*border-bottom: 1px solid rgba(0,0,0,.1);*/
 }
 @media (max-width: 900px) {
