@@ -180,6 +180,12 @@ p.paragraph {
 	.header	.col-6 {
 		width: 100%;
 	}
+	.header	.col-7 {
+		width: 100%;
+	}
+	.header	.col-5 {
+		width: 100%;
+	}
 }.ctas-button {
 	display: inline-block;
 	height: 40px;
@@ -218,8 +224,8 @@ p.paragraph {
 @media (max-width: 440px) {
 	.ctas-button,
 	.ctas-button-2 {
-		display: block;
-		width: 100%;
+		/*display: block;*/
+		/*width: 100%;*/
 		text-align: center;
 	}
 	.ctas-button-2 {
@@ -252,7 +258,7 @@ p.paragraph {
     overflow: hidden;
 	/*border-bottom: 1px solid rgba(0,0,0,.1);*/
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
 	.feature4 .sidedevices {
 		min-height: inherit;
 		margin-top: 60px;
@@ -263,6 +269,12 @@ p.paragraph {
 	.feature4	.col-5,
 	.feature4	.col-6 {
 		width: 100%;
+	}
+	.feature6 .col-4 {
+		min-width: 100%;
+	}
+	.feature6 .col-2 {
+		display: none;
 	}
 }
 .steps:not(:last-of-type) {
